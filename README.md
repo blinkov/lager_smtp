@@ -18,5 +18,5 @@ This backend is configured using proplist with contents similar to the following
 		{ssl, true}
 	]}
 	
-Note that **to** is a list of recipients, that it is mandatory.
+Note that **to** is a list of recipients, that is mandatory.
 Optional arguments are only **level**, **port** and **ssl**, example shows defaults.
