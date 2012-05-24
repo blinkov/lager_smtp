@@ -1,6 +1,9 @@
 .eunit
+ebin
 deps
 priv
 *.o
 *.beam
 *.plt
+.project
+.settings

@@ -1,0 +1,11 @@
+{application, lager_smtp,
+ [
+  {description, "SMTP backend for Lager"},
+  {vsn, "0.0.1"},
+  {modules, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {registered, []}
+ ]}.
