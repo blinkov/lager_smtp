@@ -15,7 +15,8 @@ This backend is configured using proplist with contents similar to the following
 		{username, <<"from@example.com">>},
 		{password, <<"secret_password">>},
 		{port, 587},
-		{ssl, true}
+		{ssl, true},
+		{flush_interval, 20000}
 	]}
 	
 Note that **to** is a list of recipients, that is mandatory.
